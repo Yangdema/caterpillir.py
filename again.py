@@ -139,7 +139,7 @@ while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
-            sys.exist()
+            sys.exit()
         if event.type == SCREEN_UPDATE:
             main_game.update()
             
@@ -164,6 +164,3 @@ while True:
 
     pygame.display.update()
     clock.tick(60)  
-
-     
-     
